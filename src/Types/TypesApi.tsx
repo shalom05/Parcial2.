@@ -1,3 +1,7 @@
+export interface TypesApi {
+  bodies: Array<apiTypes>
+}
+
 export interface apiTypes {
     bodies: {
         id: string,
